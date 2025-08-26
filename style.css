@@ -1,0 +1,280 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+        height: 100%;
+    width: 100%;
+    
+}
+
+#header{
+    z-index: 100;
+        height: 13%;  /* here also write you height:10vh  but it not depend on parent it depend on whole body but % depend on parent main*/
+    width: 100%;
+    position: fixed;   /* used to not scroll add it is fixed*/
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}
+
+#fakeheader{
+        height: 13%;  /* here also write you height:10vh  but it not depend on parent it depend on whole body but % depend on parent main*/
+    width: 100%;
+    
+       /* used to not scroll add it is fixed*/
+}
+
+.texts{
+    color:rgb(0, 0, 92);
+    display: flex;
+}
+
+.texts:hover{
+    color:rgb(0,176,211);
+}
+
+#logo{
+height: 70%;
+
+}
+
+#logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#page1{
+        height: 87%;
+        width: 100%;
+    background-color:white;
+}
+
+#strip{
+    width: 100%;
+    height: 8%;
+    background-color: rgb(0, 0, 131);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#strip u{
+    margin-left: 20px;
+    font-weight: lighter;
+}
+
+#content{
+    width: 100%;
+    height: 76%;
+    
+    display: flex;
+     align-items: center;
+     justify-content:space-around;
+}
+
+
+#box1{
+
+    height: 90%;
+    width: 47%;
+    background-color:white;
+
+}
+
+
+#btns{
+display: flex;
+    text-align: center;
+border-radius: 5px;
+}
+
+#btn1{
+    margin: 10px;
+    width: 23%;
+    padding: 10px 20px;
+    color: white;
+    background-color:rgb(89, 213, 255);
+
+}
+
+#btn1:hover{
+background-color:rgb(0, 66, 88);
+}
+
+
+#box1 h1{
+    font-weight: 600;
+    color: rgb(0, 0, 80);
+    font-size:50px;
+    margin: 30px 10px;
+}
+
+#box1 p{
+ margin: 30px 10px;
+ font-weight: lighter;
+ font-size: x-large;
+}
+
+ #btn2{
+      margin: 10px;
+    width: 23%;
+    padding: 10px 20px;
+    color:rgb(89, 213, 255);
+    border:1px solid rgb(89, 213, 255);
+  
+}
+
+#box2{
+    height: 90%;
+    width: 47%;
+
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+}
+
+#btn2:hover{
+    background-color: lightblue;
+    color:rgb(0, 67, 90) ;
+    border: 1px solid rgb(0, 67, 90) ;
+}
+
+#box2 img{
+    object-fit: cover;
+    height: 100%;
+    width:100%;
+}
+
+
+
+
+
+
+/* Video Container Styles */
+.video-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 60%;
+    z-index: 10;
+    cursor: pointer;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+}
+
+.video-container video {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70px;
+    height: 70px;
+    background: rgba(0, 119, 204, 0.9);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 11;
+    transition: all 0.3s ease;
+}
+
+.play-btn:hover {
+    background: rgba(0, 119, 204, 1);
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+.play-btn i {
+    color: white;
+    font-size: 28px;
+    margin-left: 4px;
+}
+
+
+
+
+
+
+
+#heading{
+    width: 100%;
+    height: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#032D76;
+    
+}
+#heading h1{
+    font-weight: 600;
+}
+
+#page2{
+        height: 87%;
+        width: 100%;
+    background-color:grey;
+}
+
+
+#contactDetails{
+   
+    font-weight: lighter;
+}
+
+#contactDetails p u:hover{
+   
+     color:rgb(0,176,211);
+}
+
+.icon{
+   
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.icon:hover{
+ background-color: lightblue;
+}
+
+#login{
+   padding: 10px;
+   border-radius: 50px;
+    display: flex;
+
+}
+
+#login:hover{
+    background-color: lightblue;
+}
+
+#try{
+    background-color: green;
+    padding: 10px 20px;
+    color: white;
+}
+
+#try:hover{
+    background-color: rgb(2, 67, 2);  
+}
